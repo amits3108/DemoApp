@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.amit.demo.activity.ServiceExample">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="112dp">
+
+        <TextView
+            android:id="@+id/tv_servie_example"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:text="@string/service_example"
+            android:textColor="@color/colorAccent"
+            android:textSize="20sp"
+            android:visibility="visible"
+            tools:layout_width="match_parent" />
+
+        <Button
+            android:id="@+id/btn_enter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_servie_example"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="18dp"
+            android:background="@android:color/holo_blue_bright"
+            android:text="@android:string/VideoView_error_button"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="148dp"
+            tools:layout_editor_absoluteY="156dp" />
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
